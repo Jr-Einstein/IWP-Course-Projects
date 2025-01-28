@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5fff5; /* Light green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.portal-container {
+    background-color: white;
+    border: 2px solid #32cd32; /* Lime Green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.portal-container h2 {
+    color: #32cd32;
+    margin-bottom: 20px;
+}
+
+.portal-container input[type="text"],
+.portal-container input[type="email"],
+.portal-container textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.portal-container button {
+    background-color: #32cd32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.portal-container button:hover {
+    background-color: #228b22; /* Darker green */
+}
