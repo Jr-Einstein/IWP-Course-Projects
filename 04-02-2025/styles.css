@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    width: 35px;
+    margin-left: 15px;
+}
+
+.search-bar {
+    margin-left: 20px;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar */
+.sidebar, .news {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stats p {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Feed */
+.feed {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-info {
+    margin-left: 10px;
+}
+
+.post-info h3 {
+    margin: 5px 0;
+}
+
+.post-text {
+    margin-top: 10px;
+}
+
+.post-image {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* News Sidebar */
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
